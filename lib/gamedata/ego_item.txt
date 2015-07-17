@@ -312,6 +312,14 @@ values:WIS[d2]
 min-values:WIS[0]
 
 # 26 (unused)
+name:26:of War
+info:0:2:500:13
+alloc:50:11 to 60
+combat:d6:d6:d6
+type:helm
+flags:SUST_DEX
+values:STR[d2]
+min-values:STR[0]
 
 
 name:27:of the Magi
@@ -472,6 +480,12 @@ type:cloak
 flags:AGGRAVATE | LIGHT_CURSE
 
 # 47 (unused)
+name:46:of the North
+info:0:1:0:0
+alloc:10:10 to 80
+combat:d4-1:d4-1:d12
+type:cloak
+flags:IGNORE_COLD | RAND_HI_RES
 
 ### Gloves ###
 
