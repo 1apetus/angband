@@ -483,7 +483,7 @@ flags:AGGRAVATE | LIGHT_CURSE
 name:46:of the North
 info:0:1:0:0
 alloc:10:10 to 80
-combat:d4-1:d4-1:d12
+combat:d3:d3:d12
 type:cloak
 flags:IGNORE_COLD | RAND_HI_RES
 
@@ -1266,3 +1266,30 @@ min-combat:255:0:0
 type:dragon armor
 values:SPEED[d5]
 min-values:SPEED[0]
+
+name:134:of Jumping
+info:0:15:2000:10
+alloc:10:10 to 80
+type:boots
+flags:TELEPORT
+
+name:135:of Enchantment
+info:0:2:500:4
+alloc:50:15 to 95
+combat:0:0:d12
+min-combat:0:0:4
+type:boots
+type:helm
+flags:SEE_INVIS | FREE_ACT | RAND_POWER
+desc:This item is finely wrought, tough yet unencumbering.
+
+name:136:of the Noldor
+info:0:2:500:4
+alloc:50:15 to 95
+combat:0:0:d12
+min-combat:0:0:4
+type:boots
+type:helm
+flags: SUST_DEX | RAND_POWER
+values:DEX[d3]
+min-values:DEX[1]
