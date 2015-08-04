@@ -704,6 +704,13 @@ values:STR[1+d2M2] | BLOWS[d2]
 min-values:STR[2] | BLOWS[1]
 
 # 71 (unused)
+name:71:of Illumination
+info:0:2:1000:6
+alloc:50:15 to 50
+type:sword
+type:hafted
+values:LIGHT[d3] | BRAND_ELEC[1]
+min-values:LIGHT[1]
 
 # The "Branded" weapons (5)
 
